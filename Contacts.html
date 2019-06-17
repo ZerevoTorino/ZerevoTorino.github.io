@@ -27,7 +27,7 @@
 </br>
 <div class="container"> 
             <div class="row align-items-center">
-                <form id="contact-form" method="post" action="contact.php" role="form">
+                <form id="contact-form" action="https://formspree.io/email@domain.tld" method="POST" role="form">
 
     <div class="messages"></div>
 
@@ -53,7 +53,7 @@
             <div class="col-md-12">
                 <div class="form-group">
                     <label for="form_email">E-mail *</label>
-                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Inserisci la tua email *" required="required" data-error="Valid email is required.">
+                    <input id="form_email" type="email" name="_replyto" class="form-control" placeholder="Inserisci la tua email *" required="required" data-error="Valid email is required.">
                     <div class="help-block with-errors"></div>
                 </div>
             </div>
@@ -67,7 +67,7 @@
                 </div>
             </div>
             <div class="col-md-12">
-                <input type="submit" id="submit" class="btn btn-light" color="red" !important value="Invia">
+                <input type="submit" id="submit" class="btn btn-light" color="red" !important value="Send">
             </div>
         </div>
         <div class="row">
