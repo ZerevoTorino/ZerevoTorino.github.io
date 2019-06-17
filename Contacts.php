@@ -67,7 +67,7 @@
                 </div>
             </div>
             <div class="col-md-12">
-                <input type="submit" class="btn btn-light" color="red" !important value="Invia">
+                <input type="submit" id="submit" class="btn btn-light" color="red" !important value="Invia">
             </div>
         </div>
         <div class="row">
